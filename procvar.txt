@@ -1,0 +1,15 @@
+
+
+
+
+
+Use all measures (not the previously identified top 15 measures).
+Exclude all measures that are based on total minutes or based on lower score is better
+Limit to medium, large or very large hospitals
+Limit to sample size > 100
+Limit to footnote is blank
+Limit to score is not zero or NULL
+
+
+
+

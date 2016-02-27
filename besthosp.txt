@@ -1,0 +1,37 @@
+
+
+
+In surveying the tables, "Timely and Effective Care" is the most robust for a geneal assessment of hospital quality.  We want to assess highest average % across as many of these measures as possible.
+
+Query measures that are the 'most widely reported' (sort descending)
+Examine these measures against reference table from Hospital.CSV documentation to understand the nature of the measure:
+1)	measure should be based on 100% scale with higher = better 
+a.	e.g. exclude measures such as "PC_01, percent of newborn deliveries scheduled too early"
+2)	exclude measures based on total minutes (but should examine if more time for project)
+
+===>>	Decision point: After exploring the data, measures after the 15th "most widely reported" measure (that met above 3 criteria) drastically cut the result set, due mostly to sample size requirement of >100. This would unfairly disqualify high-volume, highly-rated hospitals.
+===>>	Example of a data analysis dilemma where we want to use the most robust set of qualifying criteria but not over-specify the criteria
+
+Thus Top 15 measures were chosen
+
+Other criteria to qualify as Top Hospital:
+1)	Emergency Department Volume should be significant 
+	a) Exclude low volumne (equates to less than 50 people a day)
+b.	exclude volume not available
+2)	Scores should not have a footnote(as all footnotes are disclaimers that compromise the data sample)
+3)	Score should not be null
+
+Verify that at least a significant number of hospitals meet above criteria (104 hospitals met this criteria)
+
+
+Next consider 'poor care' tables : 
+1) Complications 
+2) Hospital Associated Infections 
+3) Readmissions and Deaths
+If top contenders meet national average or better than national average, this does not impact their status as high quality finalists. 
+However, if top contenders have 'worse than national average' across more than 33% of their stated measures, they should be removed from high quality hospital finalists. We don't know if location, socio-economic environment, or just coincidental death rate have influenced these metrics'
+Complications had 7 measures; >33% == more than 2 measures
+Infections had 36 measures; >33% ==more than 12 measures
+Readmissions/Deaths had 14 measures >33%= more than 4 measures
+
+

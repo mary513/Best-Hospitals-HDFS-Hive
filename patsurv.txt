@@ -1,0 +1,43 @@
+Patient surveys (see readme)
+I used file=" HCAHPS – Hospital" as opposed to " hvbp_hcahps_05_28_2015". 
+Though it might seem obvious to use the former, need to explore all patient survey-related data.
+
+I could not find much documentation the latter.
+
+The measurements were similar, but afterlooking at a few examples for pain managment, there seemed to be no correlationbetween the two tables (see README FOR BETTER images)
+
+Criteria:
+Number of Completed Surveys = 300 or more
+Survey Response Rate Percent Footnote = blank
+Hospital must be in large hospital Reference table
+
+===>>>Results will show that highest scored surveys are for smallest hospitals, but these were not in my qualifying criteria for top hospiatals 
+
+===>>>Without applying any Emergency room volume criteria, the data shows that Top 100 surveyed hosptials all are SMALL or SIZE NOT AVAIL
+
+Find intersection between 2 tables: 
+FINALISTS 
+TOP100SURV
+
+Provider= 390203, Doylestown Hospital, PA is the only hospital in the top 10 providers that is among the to 100 Patient surveys.
+
+
+
+Example of no correlation between hvbp-hcahps and HCAHPS - - SEE README FOR BETTER FORMATTING
+
+From hvbp_hcahps_05_28_2015		From HCAHPS - Hospital
+Provider Number	Pain Management Achievement Points		Provider ID	Pain management - star rating
+10001	0 out of 10		10001	2
+10006	0 out of 10		10006	4
+10007	0 out of 10		10007	1
+10011	0 out of 10		10011	3
+10016	0 out of 10		10016	3
+10021	0 out of 10		10021	4
+10023	0 out of 10		10023	3
+10038	0 out of 10		10038	2
+
+
+
+
+
+
